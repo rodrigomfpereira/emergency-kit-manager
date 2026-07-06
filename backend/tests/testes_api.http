@@ -1,0 +1,41 @@
+@apiurl = http://localhost:8000/api
+@token = 1|r8kdo2csSKvTnewv4AwSM8p9CIjfrCeQCsliTy1O9f59f44e
+
+POST {{apiurl}}/registo
+Content-Type: application/json
+
+{
+    "name": "Carlos Silva",
+    "email": "carlos@email.com",
+    "password": "password123"
+}
+
+###
+POST {{apiurl}}/login
+Content-Type: application/json
+
+{
+    "name": "Carlos Silva",
+    "email": "carlos@email.com",
+    "password": "password123"
+}
+
+### 
+GET http://localhost:8000/api/categorias
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+### 
+GET http://localhost:8000/api/categorias
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+### 
+GET http://localhost:8000/api/kits
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+### 
+GET http://localhost:8000/api/items
+Authorization: Bearer {{token}}
+Content-Type: application/json
