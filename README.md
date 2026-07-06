@@ -1,8 +1,8 @@
 # Full-Stack Monorepo (Laravel + Svelte)
 
-Full-stack monorepo project containing a backend built with Laravel and a frontend built with Svelte. This setup allows both applications to be developed and maintained within a single repository while remaining fully independent.
+Full-stack monorepo project containing a backend built with Laravel and a frontend built with Svelte developed during the second year of the Computer Engineering degree. This setup allows both applications to be developed and maintained within a single repository while remaining fully independent.
 
-> **Note:** This project is intended for development purposes. Backend and frontend are separated but managed under a single Git repository (monorepo architecture).
+> **Note:** This project is intended for development purposes. Backend and frontend are separated but managed under a single Git repository (monorepo architecture). The aplication's interface is in Portuguese, as the project was originally developed for a Portuguese university course.
 
 This project demonstrates a modern full-stack architecture with a REST API backend and a reactive frontend consuming it.
 
