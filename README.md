@@ -65,12 +65,16 @@ Make sure CORS is properly configured in the Laravel backend if the frontend is 
 ## API Communication
 
 Run backend and frontend in separate terminals.
+
 **Backend:**
+
 ```bash
 cd backend
 php artisan serve
 ```
+
 **Frontend:**
+
 ```bash
 cd frontend
 npm run dev
