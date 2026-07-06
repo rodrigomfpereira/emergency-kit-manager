@@ -17,8 +17,8 @@ This project demonstrates a modern full-stack architecture with a REST API backe
 
 ## Project Structure
 
-**backend/** : Laravel backend (API)
-**frontend/** : Svelte frontend (UI)
+- **backend/**: Laravel backend (API)
+- **frontend/**: Svelte frontend (UI)
 
 ## Requirements
 
