@@ -60,7 +60,7 @@ The frontend communicates with the backend via REST API requests.
 
 **Base API URL:** http://127.0.0.1:8000/api
 
-Make sure CORS is properly configured in the Laravel backend if the frontend is running on a different port.
+Make sure CORS is properly configured in the Laravel backend if the frontend is running on a different port than **5173** (change ```bash cors.php``` on the config folder inside backend).
 
 ## API Communication
 
