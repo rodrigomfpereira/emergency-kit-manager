@@ -31,6 +31,9 @@ This project demonstrates a modern full-stack architecture with a REST API backe
 - Node.js 16+
 - npm
 
+### Database
+- MySQL
+
 ## Installation
 
 ### Backend (Laravel)
